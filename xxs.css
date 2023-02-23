@@ -1,0 +1,63 @@
+/* (min-width: 320px) and (max-width: 480px) */
+
+/* START OF NAV STYLING */
+.grid-item-1 {
+    flex-wrap: wrap;
+}
+
+.logo {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+}
+.grid-item-1 nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.grid-item-1 nav a {
+    padding: 0;  
+    font-size: 14px;
+    padding: 10px;         
+}
+
+/* START OF ASIDE STYLING */
+.home {
+    display: none;
+}
+
+.collection-menu a {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+.collection-menu a:hover {
+    background: rgb(212, 94, 94);
+}
+
+/* END OF ASIDE STYLING */
+
+/* START OF MAIN STYLING */
+main {
+    flex-wrap: wrap;
+    padding: 0;
+}
+main div a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+/* END OF MAIN STYLING */
+
+.card {
+    height: fit-content;
+}
+.card button {
+    height: 50px;
+    
+}
+.card button a {
+    padding: 0;
+    margin: 0;
+}

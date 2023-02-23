@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta author="Ronel Labuguen" content="My Online Library">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="large.css" media="(min-width: 992px)">
+    <link rel="stylesheet" href="medium.css" media="(min-width: 768px) and (max-width: 991px)">
+    <link rel="stylesheet" href="small.css" media="(min-width: 576px) and (max-width: 767px)">
+    <link rel="stylesheet" href="xs.css" media="(min-width: 481px) and (max-width: 575px)">
+    <link rel="stylesheet" href="xxs.css" media="(min-width: 320px) and (max-width: 480px)">
+    <link rel="stylesheet" href="./checkoutstyle.css">
+
+</head>
+<body>
+    <div class="container">
+        <!-- WARNING// NO EDITING NEEDED -->
+        <div class="grid-item grid-item-1">
+            <h1 class="logo">my<span>Library</span></h1>
+            <nav>
+                <a href="./index.html">Home</a>    
+                <a href="./collections-scifi.html">Collections</a>    
+                <a href="#" id="active">Checkout</a>
+            </nav>            
+        </div>
+
+        <div class="grid-item grid-item-2 checkout">
+            <h1>YOUR CART</h1>
+                <div class="category">
+                    <table>
+                        <tr>
+                            <th>Item</th>
+                            <th>Category</th>
+                            <th>Book Title</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Historical</td>
+                            <td>The Lost Friends</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Science Fiction</td>
+                            <td>The Great Gatsby</td>
+                        </tr><tr>
+                            <td>3</td>
+                            <td>Science Fiction</td>
+                            <td>The Huckleberry Inn</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Science Fiction</td>
+                            <td>The Great Gatsby</td>
+                        </tr><tr>
+                            <td>5</td>
+                            <td>Science Fiction</td>
+                            <td>The Huckleberry Inn</td>
+                        </tr>
+                    </table>  
+                </div>    
+        </div>
+        <!-- WARNING// NO EDITING NEEDED -->
+        
+        <!-- MAIN CONTENT FOR PAGE EDITING -->
+                
+        <div class="grid-item grid-item-3">
+            <main>
+                <div class="checkoutForm">        
+                        <h2>Book Details</h2>
+                                <div class="row">
+                                    <form>
+                                        <div class="innercon">     
+                                                <label for="bTitle">Title of Book</label>
+                                                    <input type="text" id="bTitle" name="bTitle" placeholder="Book Title">
+                                                
+                                                <label for="author">Author</label>
+                                                <input type="text" id="author" name="author" placeholder="Name of Author">
+                                                
+                                                <label for="yearPublish">Year Publish</labe>
+                                                <input type="text" id="yearPublish" name="yearPublish" placeholder="Year Published">
+                                                
+                                                <label for="start">Start Date</labe>
+                                                <input type="text" id="start" name="start" placeholder="Start Date">
+                                                
+                                                <label for="due">Due Date</labe>
+                                                <input type="text" id="due" name="due" placeholder="Due Date">
+                                                <br>
+                                                <div class="btncon">
+                                                    <button type="submit" class="btn btn2b"><a href="#">Add to Cart</a></button>
+                                                    <button type="submit" class="btn btn2b"><a href="./collections-scifi.html">ADD MORE BOOKS</a></button>
+                                                </div>
+                                        </div>
+                                        <div class="innercon">
+                                            <label>Shipping Address</label>
+                                            <input type="checkbox" checked="checked" name="sameaddress">                                            
+                                            <button type="submit" class="btn2"><a href="./checkout.html">Continue to Checkout</a></button>
+                                        </div>
+                                    </form>        
+                                </div>
+                </div>
+            </main>    
+        </div>
+
+        <!-- MAIN CONTENT FOR PAGE EDITING -->
+
+        <!-- WARNING// NO EDITING NEEDED -->
+        <div class="grid-item grid-item-4">
+            <footer><span>&#169</span> All Rights Reserve</footer>
+        </div>
+        <!-- WARNING// NO EDITING NEEDED -->
+    </div>
+    
+</body>
+</html>

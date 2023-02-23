@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.144);
+}
+.container {
+    background: rgb(43, 41, 41);
+    width: 100%;
+    min-height: 100vh;
+}
+
+.grid-item-1 {
+    display: flex;  
+    height: 100px;
+    justify-content: space-between; 
+    align-items: center;
+}
+/* END OF GRID STYLING */
+
+.logo {
+    color: white;
+    margin-left: 50px;
+    font-size: 40px;
+    font-style: italic;
+}
+.logo span {
+    color: rgb(247, 114, 5);
+}
+/* END OF LOGO STYLING */
+
+.grid-item-1 nav {
+    display: flex;
+    height: 20px;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.grid-item-1 nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: arial;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 20px;
+    cursor: pointer;
+}
+.grid-item-1 nav a:hover {
+    color: red;
+    transition: 0.6s;
+}
+#active {
+    color: rgb(111, 111, 242);
+} 
+/* END OF NAV STYLING */
+
+/* START OF ASIDE STYLING */
+.grid-item-2 h1 {
+    font-family: arial;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    padding: 10px;
+    margin-top: 20PX;
+    text-align: center;
+
+}
+.grid-item-2 a {
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: arial;
+    margin-left: 5%;
+    color: white;
+    cursor: pointer;
+}
+.grid-item-2 a:hover {
+    color: red;
+    transition: 0.6s;
+}
+/* END OF ASIDE STYLING */
+
+/* START FOOTER STYLING */
+.grid-item-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+footer {
+    color: #fff;
+    font-family: arial;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+footer span {
+    font-size: 20px;
+}
+/* END OF FOOTER STYLING */
+
+/* STYLING FOR MAIN CONTENT */
+
+/* FORM STYLING */
+
+main {
+    padding: 0;
+    margin: 0;
+}
+.checkoutForm {
+    margin: 2%;
+    padding: 0 50px;
+}
+.checkoutForm h2 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: arial;
+    margin-bottom: 20px;
+}
+.checkoutForm .row {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+}
+.innercon {
+    width: 100%;
+}
+.innercon h3 {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-family: arial;
+}
+.innercon label {
+    /* display: block; */
+    margin-bottom: 10px;
+    color: #fff;
+}
+.innercon input[type=text], input[type=email], input[type=date] {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 3px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.innerrow {
+    width: 100%;
+    display: flex;
+}
+.innerrow .col_50 {
+    width: 50%;
+    padding: 0 10px;
+}
+.btncon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+    width: 300px;
+    height: 60px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: arial;
+    font-weight: 500;
+    background: tranparent;
+    cursor: pointer;
+    position: relative;
+    transition: 0.8s ease;
+    display: inline-block;
+    box-shadow: inset 
+          2px 2px 2px 0px rgba(255, 255, 255, 0.5)
+          7px 7px 20px 0px rgba(0, 0, 0, 0.1)
+          4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    outline: none;
+    background: linear-gradient(0deg, 
+        rgb(74, 74, 76)0%,
+        rgb(7, 7, 7) 100%);
+    border: none;
+  }
+  .btn:hover {
+    background: rgb(41, 41, 42);
+  }
+  .btn2b {
+    width: 400px;
+    margin: 10px;
+  }
+  .btn2 {
+    background-color: rgb(51, 83, 51);
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: 0.6s ease;
+  }
+  .btn2:hover {
+    background-color: rgb(218, 112, 112)
+  }
+  a {
+    color: hsl(207, 53%, 59%);
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .btncon {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .innerconbtn {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* CHECKOUT SUMMARY STYLING */
+  .checkout2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .payoutcon {
+    padding: 30px;
+    background: gray;
+    border-radius: 20px;
+    width: 500px;
+    height: 530px;
+  }
+  .payoutcon h2 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: arial;
+    margin-bottom: 15px;  
+  }
+  .payoutcon .inside {
+    padding: 10px;
+    width: 100%;
+    display: inline-block;
+  }
+  .payoutcon .inside label {
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: arial;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+  }
+  .payoutcon .inside input[type=text], input[type=tel] {
+    margin-bottom: 10px;
+    margin-right: 3px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+  }
+  .payoutcon .inside select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width:150px;
+  }
+  .payoutcon .inside input[type=radio] {
+    display: inline-block; 
+  }
+  .payoutcon .btncon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .payoutcon .btncon .btn {
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: arial;
+    font-weight: 500;
+    background: tranparent;
+    cursor: pointer;
+    position: relative;
+    transition: 0.8s ease;
+    display: inline-block;
+    box-shadow: inset 
+          2px 2px 2px 0px rgba(255, 255, 255, 0.5)
+          7px 7px 20px 0px rgba(0, 0, 0, 0.1)
+          4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    outline: none;
+    background: rgb(88, 88, 91);
+    background: linear-gradient(0deg, 
+        rgb(74, 74, 76)0%,
+        rgb(7, 7, 7) 100%);
+    border: none;
+  }
+  .payoutcon .btncon .btn:hover {
+    background: rgb(41, 41, 42); 
+  }
+  

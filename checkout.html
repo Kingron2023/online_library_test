@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta author="Ronel Labuguen" content="My Online Library">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="large.css" media="(min-width: 992px)">
+    <link rel="stylesheet" href="medium.css" media="(min-width: 768px) and (max-width: 991px)">
+    <link rel="stylesheet" href="small.css" media="(min-width: 576px) and (max-width: 767px)">
+    <link rel="stylesheet" href="xs.css" media="(min-width: 481px) and (max-width: 575px)">
+    <link rel="stylesheet" href="xxs.css" media="(min-width: 320px) and (max-width: 480px)">
+    <link rel="stylesheet" href="./checkoutstyle.css">
+
+</head>
+<body>
+    <div class="container">
+        <!-- WARNING// NO EDITING NEEDED -->
+        <div class="grid-item grid-item-1">
+            <h1 class="logo">my<span>Library</span></h1>
+            <nav>
+                <a href="./index.html">Home</a>    
+                <a href="./collections-scifi.html">Collections</a>    
+                <a href="#" id="active">Checkout</a>
+            </nav>            
+        </div>
+
+        <div class="grid-item grid-item-2 checkout">
+            <h1>YOUR CART</h1>
+                <div class="category">
+                    <table>
+                        <tr>
+                            <th>Item</th>
+                            <th>Category</th>
+                            <th>Book Title</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Historical</td>
+                            <td>The Lost Friends</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Science Fiction</td>
+                            <td>The Great Gatsby</td>
+                        </tr><tr>
+                            <td>3</td>
+                            <td>Science Fiction</td>
+                            <td>The Huckleberry Inn</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Science Fiction</td>
+                            <td>The Great Gatsby</td>
+                        </tr><tr>
+                            <td>5</td>
+                            <td>Science Fiction</td>
+                            <td>The Huckleberry Inn</td>
+                        </tr>
+                    </table>  
+                </div>    
+        </div>
+        <!-- WARNING// NO EDITING NEEDED -->
+        
+        <!-- MAIN CONTENT FOR PAGE EDITING -->
+                
+        <div class="grid-item grid-item-3">
+            <main>
+                <div class="checkoutForm">        
+                        <h2>Checkout Form</h2>
+                                <div class="row">
+                                    <form>
+                                        <div class="innercon">
+                                            <h3>Billing</h3>
+                                            <label for="fname"><i class="icon"></i>Full Name</label>
+                                            <input type="text" id="fname" name="fname" placeholder="Full Name">
+                                            
+                                            <label for="email"><i class="iconEmail"></i>Email</label>
+                                            <input type="text" id="email" name="email" placeholder="juandelacruc@gmail.com">
+                                            
+                                            <label for="barangay"><i class="brgyAddress"></i>Barangay</label>
+                                            <input type="text" id="brgyAddress" name="brgyAddress" placeholder="Barangay">
+                                            
+                                            <label for="town"><i class="townAddress"></i>Town</label>
+                                            <input type="text" id="townAddress" name="townAddress" placeholder="Town">
+                                            
+                                            <label for="province"><i class="iconProvince"></i>Province</label>
+                                            <input type="text" id="province" name="province" placeholder="Province">
+
+                                            <div class="innerrow">
+                                                <div class="col_50">
+                                                    <label for="country"><i class="iconProvince"></i>Country</label>
+                                                    <input type="text" id="country" name="country" placeholder="Country Name">
+                                                </div>
+                                                <div class="col_50">
+                                                    <label for="zipCode"><i class="zipCode"></i>ZIP Code</label>
+                                                    <input type="text" id="zipCode" name="zipCode" placeholder="ZIP Code">
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                        
+                                        <div class="innercon">
+                                            <label>Shipping Address</label>
+                                            <input type="checkbox" checked="checked" name="sameaddress">                                            
+                                            <button type="submit" class="btn2"><a href="./placeorder.html">Continue to Checkout</a></button>
+                                        </div>
+                                    </form>        
+                                </div>
+                </div>
+            </main>    
+        </div>
+
+        <!-- MAIN CONTENT FOR PAGE EDITING -->
+
+        <!-- WARNING// NO EDITING NEEDED -->
+        <div class="grid-item grid-item-4">
+            <footer><span>&#169</span> All Rights Reserve</footer>
+        </div>
+        <!-- WARNING// NO EDITING NEEDED -->
+    </div>
+    
+</body>
+</html>
